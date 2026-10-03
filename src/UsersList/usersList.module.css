@@ -1,0 +1,62 @@
+.user-pfp {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user-all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  background: var(--color-card-bg);
+  border-radius: 25px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.name-and-age {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.char-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.age {
+  font-size: 0.9rem;
+}
+
+.username {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.delete-btn {
+  background: var(--color-btn-danger);
+  color: var(--color-btn-text);
+  padding: 7px 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.delete-btn:hover {
+  background: var(--color-btn-danger-hover);
+  cursor: pointer;
+}
+
+.selected {
+  border: 2px solid var(--color-border-selected);
+}
